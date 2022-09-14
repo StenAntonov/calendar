@@ -1,0 +1,17 @@
+@import "header.css";
+@import "calendar.css";
+@import "weekDays.css";
+@import "days.css";
+@import "dayTemp.css";
+@import "modal.css";
+@import "notFound.css";
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}

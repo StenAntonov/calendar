@@ -1,0 +1,53 @@
+.day {
+    list-style-type: none;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+    border-top: none;
+    width: 269px;
+    height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.on-hover {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.on-hover:hover {
+    background-color: rgba(15, 144, 154, 0.2);
+    cursor: pointer;
+}
+
+.today {
+    background-color: rgb(54, 161, 248);
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.today:hover {
+    background-color: rgb(9, 86, 148);
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.day-events {
+    list-style-type: none;
+    height: 130px;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-top: none;
+}
+
+.day-prev {
+    background-color: rgb(159, 146, 146, 0.2);
+}
+
+.day-next {
+    background-color: rgb(159, 146, 146, 0.2);
+}

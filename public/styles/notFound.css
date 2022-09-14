@@ -1,0 +1,18 @@
+ .not-found{
+    margin: 300px 500px;
+    padding: 0 250px;
+}
+
+.not-found-heading {
+    font-size: 50px;
+
+}
+
+.not-found-p {
+    font-size: 30px;
+
+}
+
+.link-to-home {
+    font-size: 20px;
+}

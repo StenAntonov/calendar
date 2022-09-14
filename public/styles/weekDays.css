@@ -1,0 +1,21 @@
+.week-days-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin: 0;
+    padding-left: 1px;
+}
+
+.week-day {
+    list-style-type: none;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+    border-top: none;
+    width: 269px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

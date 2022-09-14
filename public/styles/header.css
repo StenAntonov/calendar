@@ -1,0 +1,56 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+}
+
+.calendar-header {
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.createBtn {
+    width: 160px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 9px 8px 19px -13px rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.createBtn:hover {
+    cursor: pointer;
+}
+
+.btnText {
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+.month {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: -10px;
+}
