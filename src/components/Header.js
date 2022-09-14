@@ -1,7 +1,7 @@
 import { useState } from "react";
 import CreateFmBtn from './Modal/CreateFmBtn';
 
-const Header = () => {
+const Header = ({updateEvents}) => {
   const [showCreateModal, setShowCreateModal] = useState(false);
 
   const createClickHandler = (e) => {

@@ -26,9 +26,6 @@ const EventsModal = ({ id, day, closeEventsList }) => {
           <button onClick={closeEventsList} className="modal-buttons" type="button" variant="secondary">
             Cancel
           </button>
-          <button  className="modal-buttons" type="button" variant="primary">
-            Save
-          </button>
         </div>
       </section>
     </div>

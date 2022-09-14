@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const CreateFmBtn = ({ closeModal, count }) => {
+const CreateFmBtn = ({ closeModal }) => {
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
   const date = new Date().getDate();
