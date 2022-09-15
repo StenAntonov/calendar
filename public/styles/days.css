@@ -51,3 +51,23 @@
 .day-next {
     background-color: rgb(159, 146, 146, 0.2);
 }
+
+.redux {
+    padding-left: 125px;
+    padding-top: 50px;
+}
+
+.redux-btn {
+    background-color: rgb(216, 209, 0);
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    bottom: 5px;
+}
+
+.redux-p {
+    position: relative;
+    right: 20px;
+}

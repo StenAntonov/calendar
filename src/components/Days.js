@@ -1,14 +1,8 @@
-import { useEffect } from "react";
 import DayTemp from "./DayTemp";
+import { useSelector } from "react-redux";
 
 const Days = ({ daysInMonth }) => {
-  const todaysDate = new Date().getDate();
-
-  useEffect(() => {
-    const presentDayBox = document.getElementById(todaysDate);
-    presentDayBox.classList.add("today");
-  }, [todaysDate]);
-
+  const count = useSelector((state) => state.count.value);
   return (
     <section className="week-days">
       <ul className="week-days-row">
@@ -32,8 +26,8 @@ const Days = ({ daysInMonth }) => {
         {daysInMonth.map(day => <DayTemp id={day} key={day} />)}
 
         <section className="day-next">
-          <li className="day"><br></br></li>
-          <li className="day-events"></li>
+          <li className="day">Redux Demo:<br></br></li>
+          <li className="day-events redux">{count}</li>
         </section>
       </ul>
     </section>

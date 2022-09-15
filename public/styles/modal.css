@@ -91,3 +91,25 @@
     padding-right: 15px;
     text-align: center;
 }
+
+.del {
+    width: 20px;
+    height: 30px;
+    background: none;
+    border: none;
+    padding-left: 8px;
+}
+
+.desc {
+    background-color: rgb(247, 230, 214);
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.fa-sharp, fa-solid, fa-trash-can {
+    font-size: 20px;
+}
+
+.modal-buttons {
+    margin-bottom: 10px;
+}

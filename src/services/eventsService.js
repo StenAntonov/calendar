@@ -30,8 +30,8 @@ export const edit = (events, id) => {
     });
 };
 
-export const del = (eventId) => {
-    return fetch(`${baseUrl}/day-${eventId}/${eventId}`, {
+export const del = (id, eventId) => {
+    return fetch(`${baseUrl}/day-${id}/${eventId}`, {
         method: 'DELETE',
     }).then(res => res.json());
 };

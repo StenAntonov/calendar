@@ -16,7 +16,7 @@ const Calendar = () => {
       setId(e.target.id);
       setShowCreateFmDate(true);
     } else if (e.target.tagName === "LI" || e.target.tagName === 'UL') {
-      setId(e.target.parentNode.className.slice(4));
+      setId(e.target.parentNode.id);
       setDay(e.target.parentNode.className);
       setshowEventsModal(true);
     }
@@ -40,7 +40,7 @@ const Calendar = () => {
       <WeekDays />
       <Days daysInMonth={daysInMonth} />
       {showCreateFmDate && <CreateFmDate id={id} populateCreateEvent={populateCreateEvent} closeCreateFmDate={closeCreateFmDate} />}
-      {showEventsModal && <EventsModal id={id} day={day} closeEventsList={closeEventsList} />}
+      {showEventsModal && <EventsModal id={id} day={day} populateCreateEvent={populateCreateEvent} closeEventsList={closeEventsList} />}
     </div>
   );
 }
